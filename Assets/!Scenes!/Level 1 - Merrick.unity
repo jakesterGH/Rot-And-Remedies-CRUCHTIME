@@ -24397,6 +24397,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3689206341020935924, guid: c46f517896b43cf4389d85cafaf73103,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4681196175489506963, guid: c46f517896b43cf4389d85cafaf73103,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -38133,6 +38138,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3689206341020935924, guid: c46f517896b43cf4389d85cafaf73103,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4681196175489506963, guid: c46f517896b43cf4389d85cafaf73103,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -38183,6 +38193,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -32.244
       objectReference: {fileID: 0}
+    - target: {fileID: 5213165687414748594, guid: c46f517896b43cf4389d85cafaf73103,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Throwable","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Crate","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5213165687414748594, guid: c46f517896b43cf4389d85cafaf73103,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5213165687414748594, guid: c46f517896b43cf4389d85cafaf73103,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[0]
+      value: 
+      objectReference: {fileID: 6698738502093764781, guid: 6704c65681ccb7f44823244034145578,
+        type: 3}
+    - target: {fileID: 5213165687414748594, guid: c46f517896b43cf4389d85cafaf73103,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[1]
+      value: 
+      objectReference: {fileID: 5457557570875573289, guid: c46f517896b43cf4389d85cafaf73103,
+        type: 3}
     - target: {fileID: 5457557570875573289, guid: c46f517896b43cf4389d85cafaf73103,
         type: 3}
       propertyPath: m_Name
