@@ -14677,7 +14677,7 @@ GameObject:
   - component: {fileID: 2368097990969514102}
   m_Layer: 0
   m_Name: ThrowablePotion
-  m_TagString: Untagged
+  m_TagString: Throwable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
