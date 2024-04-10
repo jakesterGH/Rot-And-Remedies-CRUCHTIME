@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: OpenContinue
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-151.7704,"y":-58.22397},"zoom":0.8,"elements":[{"chainable":false,"parameterNames":["stateName"],"member":{"name":"Play","parameterTypes":["System.String"],"targetType":"UnityEngine.Animator","targetTypeName":"UnityEngine.Animator","$version":"A"},"defaultValues":{"target":null,"%stateName":{"$content":"Door2TriggerUp","$type":"System.String"}},"position":{"x":-106.0,"y":-174.0},"guid":"b88b840c-a32f-4872-9ced-be62fabfe35b","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"9"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-740.0,"y":-186.0},"guid":"ffc8f3f4-8e25-4b97-9bf1-eaab01a0f00e","$version":"A","$type":"Unity.VisualScripting.OnTriggerEnter","$id":"13"},{"chainable":false,"parameterNames":["tag"],"member":{"name":"CompareTag","parameterTypes":["System.String"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"target":null,"%tag":{"$content":"Cheese","$type":"System.String"}},"position":{"x":-503.0,"y":-191.0},"guid":"243122c0-55b0-4953-b495-d41ab121f487","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"15"},{"defaultValues":{},"position":{"x":-301.0,"y":-181.0},"guid":"9958c29d-3f90-4dac-bf40-a1fdf48df900","$version":"A","$type":"Unity.VisualScripting.If","$id":"19"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"SecondDoorUpTrigger","$type":"System.String"},"object":null},"position":{"x":-480.0,"y":6.0},"guid":"16ec2735-cb08-4513-a146-3a09b1442eee","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"21"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"15"},"destinationKey":"enter","guid":"ee278d51-d817-4898-b05b-55e17ca43811","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"exit","destinationUnit":{"$ref":"19"},"destinationKey":"enter","guid":"b5756107-450b-4067-9ec5-da9a07eac727","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"ifTrue","destinationUnit":{"$ref":"9"},"destinationKey":"enter","guid":"2af92c72-da14-4492-aeba-55a8878dcda8","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"collider","destinationUnit":{"$ref":"15"},"destinationKey":"target","guid":"8d5ab11c-b089-4f7c-aabe-433bd87166bf","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"result","destinationUnit":{"$ref":"19"},"destinationKey":"condition","guid":"e2c25189-f726-4764-b303-19d14bdbba63","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"value","destinationUnit":{"$ref":"9"},"destinationKey":"target","guid":"dce15539-a386-4975-bafd-fb7b784f33a9","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
