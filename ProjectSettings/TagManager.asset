@@ -6,11 +6,12 @@ TagManager:
   tags:
   - Breakable
   - Throwable
+  - RatZone
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
   - 
