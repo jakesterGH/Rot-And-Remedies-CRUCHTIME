@@ -4190,7 +4190,7 @@ GameObject:
   - component: {fileID: 114152543}
   - component: {fileID: 114152542}
   m_Layer: 0
-  m_Name: Cube (26)
+  m_Name: BlockingFluid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6200,22 +6200,6 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
---- !u!111 &198676089
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 198676084}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations:
-  - {fileID: 7400000, guid: dd7953b5b66589648b38289c10873c11, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!1 &203473200 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1b9025098740e4a48844d072b30489dd,
@@ -17748,8 +17732,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 524437375}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 160.7, y: 1.1, z: 83.1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 111, y: 1.1, z: -9.900002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -17868,7 +17852,7 @@ Transform:
   - {fileID: 296909707}
   - {fileID: 2018768839}
   - {fileID: 1502806211}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2066368116}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &525335108 stripped
 Transform:
@@ -19550,7 +19534,7 @@ PrefabInstance:
     - target: {fileID: 1020295142652241499, guid: a7813c2a2181fc74b838199ed6d80234,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -22.963243
+      value: 21.4
       objectReference: {fileID: 0}
     - target: {fileID: 1020295142652241499, guid: a7813c2a2181fc74b838199ed6d80234,
         type: 3}
@@ -21206,7 +21190,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 5d17ed46f320c6846a3de4d403a9dbc8,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 97.28352
       objectReference: {fileID: 0}
     - target: {fileID: -5334272757969869310, guid: 5d17ed46f320c6846a3de4d403a9dbc8,
         type: 3}
@@ -21258,10 +21242,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 198676088}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5d17ed46f320c6846a3de4d403a9dbc8,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 198676089}
   m_SourcePrefab: {fileID: 100100000, guid: 5d17ed46f320c6846a3de4d403a9dbc8, type: 3}
 --- !u!1 &603283214 stripped
 GameObject:
@@ -22161,7 +22141,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1009263603}
+    m_TransformParent: {fileID: 2013888504}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 2d06ace824f6d2349bca2e4a6deabc2c,
         type: 3}
@@ -22181,17 +22161,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 2d06ace824f6d2349bca2e4a6deabc2c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -96.64
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2d06ace824f6d2349bca2e4a6deabc2c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.07999998
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2d06ace824f6d2349bca2e4a6deabc2c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 52.020004
+      value: 7.7000046
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2d06ace824f6d2349bca2e4a6deabc2c,
         type: 3}
@@ -22236,7 +22216,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 2d06ace824f6d2349bca2e4a6deabc2c,
         type: 3}
       propertyPath: m_Name
-      value: Metal Door (3)
+      value: CellarDoor_R
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -34112,9 +34092,7 @@ Transform:
   m_Children:
   - {fileID: 1323613920}
   - {fileID: 975496451}
-  - {fileID: 641994901}
   - {fileID: 541599367}
-  - {fileID: 1261957220}
   - {fileID: 156411338}
   - {fileID: 2056224938}
   - {fileID: 1061854171}
@@ -35158,8 +35136,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1032849815}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -31.15, y: 0.25, z: 107.55}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -80.85, y: 0.25, z: 14.550003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -35205,7 +35183,7 @@ Transform:
   - {fileID: 2075993142}
   - {fileID: 1723168554}
   - {fileID: 465211349}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2066368116}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1034158481
 PrefabInstance:
@@ -39462,7 +39440,7 @@ PrefabInstance:
     - target: {fileID: 1102190865684750684, guid: 2c8f8499e71749d48aef83aef1956010,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.43
       objectReference: {fileID: 0}
     - target: {fileID: 1102190865684750684, guid: 2c8f8499e71749d48aef83aef1956010,
         type: 3}
@@ -41811,7 +41789,7 @@ Transform:
   m_GameObject: {fileID: 1215017401}
   serializedVersion: 2
   m_LocalRotation: {x: 0.2852245, y: -0.00000001649164, z: 0.0000000049076805, w: 0.95846075}
-  m_LocalPosition: {x: -22.963243, y: 8.59, z: 27.400002}
+  m_LocalPosition: {x: 21.4, y: 8.59, z: 27.400002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -43211,7 +43189,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1009263603}
+    m_TransformParent: {fileID: 2013888504}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 2d06ace824f6d2349bca2e4a6deabc2c,
         type: 3}
@@ -43231,17 +43209,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 2d06ace824f6d2349bca2e4a6deabc2c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -96.64
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2d06ace824f6d2349bca2e4a6deabc2c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.07999998
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2d06ace824f6d2349bca2e4a6deabc2c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 44.32
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2d06ace824f6d2349bca2e4a6deabc2c,
         type: 3}
@@ -43286,7 +43264,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 2d06ace824f6d2349bca2e4a6deabc2c,
         type: 3}
       propertyPath: m_Name
-      value: Metal Door (4)
+      value: CellarDoor_L
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -45912,8 +45890,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[{"name":"Valve1Triggered","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Ratzone1","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 557004812}
 --- !u!4 &1369822973
 Transform:
   m_ObjectHideFlags: 0
@@ -57227,7 +57208,7 @@ Transform:
   m_GameObject: {fileID: 1712059630}
   serializedVersion: 2
   m_LocalRotation: {x: 0.2852245, y: -0.00000001649164, z: 0.0000000049076805, w: 0.95846075}
-  m_LocalPosition: {x: -22.963243, y: 8.59, z: 27.400002}
+  m_LocalPosition: {x: 21.4, y: 8.59, z: 27.400002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -66524,6 +66505,39 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 4.58, y: 5.57, z: 0.87222564}
   m_Center: {x: -0.0676094, y: 0, z: 0.21181895}
+--- !u!1 &2013888503
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2013888504}
+  m_Layer: 0
+  m_Name: CellarDoors
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2013888504
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013888503}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.3399963, y: 0.3, z: 84.99}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 641994901}
+  - {fileID: 1261957220}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2015280179
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -68137,7 +68151,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2066368116}
   m_Layer: 0
-  m_Name: Envo1
+  m_Name: Environment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -68282,6 +68296,8 @@ Transform:
   - {fileID: 1357170904}
   - {fileID: 31423189}
   - {fileID: 2105707583}
+  - {fileID: 524437376}
+  - {fileID: 1032849816}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2069187692
@@ -70675,6 +70691,7 @@ GameObject:
   - component: {fileID: 2144970050}
   - component: {fileID: 2144970049}
   - component: {fileID: 2144970048}
+  - component: {fileID: 2144970054}
   m_Layer: 0
   m_Name: Valve1
   m_TagString: Untagged
@@ -70711,8 +70728,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Valve1","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BlockingFluid","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"CellarDoors","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 2144970047}
+    - {fileID: 114152540}
+    - {fileID: 2013888503}
 --- !u!65 &2144970050
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70800,6 +70823,27 @@ Transform:
   - {fileID: 198676087}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &2144970054
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144970047}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c34a81f5ddd0f2148b6dea1eafdd9735, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &2145223770
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -71134,7 +71178,6 @@ SceneRoots:
   - {fileID: 1370504141}
   - {fileID: 1614022044}
   - {fileID: 2066368116}
-  - {fileID: 524437376}
   - {fileID: 1305210124}
   - {fileID: 1369822973}
   - {fileID: 652488870}
@@ -71163,7 +71206,7 @@ SceneRoots:
   - {fileID: 1226003476}
   - {fileID: 579699809}
   - {fileID: 264592970}
-  - {fileID: 1032849816}
+  - {fileID: 2013888504}
   - {fileID: 2144970053}
   - {fileID: 582684219}
   - {fileID: 762309818}
