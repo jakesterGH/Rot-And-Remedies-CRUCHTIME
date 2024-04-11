@@ -14347,12 +14347,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 439185999}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &443272884 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6837033942985835532, guid: a7813c2a2181fc74b838199ed6d80234,
-    type: 3}
-  m_PrefabInstance: {fileID: 563878699}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &446640003 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1b9025098740e4a48844d072b30489dd,
@@ -19621,7 +19615,6 @@ PrefabInstance:
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsThrowDisabled?","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CanPlayPotionSFX","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Player","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"FakePlayerMesh","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PlayerMesh","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Rat","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Ratzone","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
@@ -19657,7 +19650,7 @@ PrefabInstance:
         type: 3}
       propertyPath: _data._objectReferences.Array.data[5]
       value: 
-      objectReference: {fileID: 443272884}
+      objectReference: {fileID: 867518160}
     - target: {fileID: 1632283277073449713, guid: a7813c2a2181fc74b838199ed6d80234,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[6]
@@ -28846,6 +28839,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1b9025098740e4a48844d072b30489dd,
     type: 3}
   m_PrefabInstance: {fileID: 867038850}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &867518160 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4022620672701541617, guid: a7813c2a2181fc74b838199ed6d80234,
+    type: 3}
+  m_PrefabInstance: {fileID: 563878699}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &868621789
 PrefabInstance:
@@ -41811,7 +41810,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1215017401}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.2852245, y: 0.00000001649164, z: -0.0000000049076805, w: 0.95846075}
+  m_LocalRotation: {x: 0.2852245, y: -0.00000001649164, z: 0.0000000049076805, w: 0.95846075}
   m_LocalPosition: {x: -22.963243, y: 8.59, z: 27.400002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -57227,7 +57226,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1712059630}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.2852245, y: 0.00000001649164, z: -0.0000000049076805, w: 0.95846075}
+  m_LocalRotation: {x: 0.2852245, y: -0.00000001649164, z: 0.0000000049076805, w: 0.95846075}
   m_LocalPosition: {x: -22.963243, y: 8.59, z: 27.400002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
