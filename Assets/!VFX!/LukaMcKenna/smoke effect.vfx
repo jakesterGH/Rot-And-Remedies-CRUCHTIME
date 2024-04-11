@@ -19,7 +19,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 433
     y: -190
-    width: 934
+    width: 933
     height: 1563
 --- !u!114 &114350483966674976
 MonoBehaviour:
@@ -31,7 +31,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d4c867f6b72b714dbb5fd1780afe208, type: 3}
-  m_Name: smoke effect
+  m_Name: test effect
   m_EditorClassIdentifier: 
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 0}
@@ -59,7 +59,7 @@ VisualEffectResource:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: smoke effect
+  m_Name: test effect
   m_Graph: {fileID: 114350483966674976}
   m_Infos:
     m_RendererSettings:
@@ -592,7 +592,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Vector, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"vector":{"x":0.03999999910593033,"y":0.09000000357627869,"z":7.110000133514404}}'
+      m_SerializableObject: '{"vector":{"x":0.03999999910593033,"y":1.0,"z":0.28999999165534975}}'
     m_Space: 0
   m_Property:
     name: A
@@ -1627,7 +1627,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: -1.48
+      m_SerializableObject: -1.04
     m_Space: 2147483647
   m_Property:
     name: _FresnelPower
@@ -1661,7 +1661,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 6.85
+      m_SerializableObject: 3
     m_Space: 2147483647
   m_Property:
     name: _vornoiscale
