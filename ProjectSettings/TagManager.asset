@@ -8,6 +8,7 @@ TagManager:
   - Throwable
   - RatZone
   - Rat
+  - Apple Crate
   layers:
   - Default
   - TransparentFX
