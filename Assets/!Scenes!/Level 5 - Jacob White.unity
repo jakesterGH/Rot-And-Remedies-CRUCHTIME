@@ -19652,6 +19652,22 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[8]
       value: 
       objectReference: {fileID: 1378972770}
+    - target: {fileID: 2069757167710095509, guid: a7813c2a2181fc74b838199ed6d80234,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069757167710095509, guid: a7813c2a2181fc74b838199ed6d80234,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069757167710095509, guid: a7813c2a2181fc74b838199ed6d80234,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: b807e2bd29d08db478e7cd50d0b458c0,
+        type: 2}
     - target: {fileID: 2863952663873847022, guid: a7813c2a2181fc74b838199ed6d80234,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
