@@ -14322,12 +14322,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.0000002, y: 1.0000005, z: 1.0000004}
   m_Center: {x: 0.00000005199524, y: -0.000000030463454, z: 0.5000001}
---- !u!1 &872447807 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8159063524252419408, guid: a7813c2a2181fc74b838199ed6d80234,
-    type: 3}
-  m_PrefabInstance: {fileID: 1168098097}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &873124477
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19455,14 +19449,13 @@ PrefabInstance:
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Ratzone","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"RatzoneCollider","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Collider,
         UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Aim","value":{"$content":9,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"AimOn?","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"playeranimator","value":{"$content":9,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"playeranimator","value":{"$content":10,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 1632283277073449713, guid: a7813c2a2181fc74b838199ed6d80234,
         type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1632283277073449713, guid: a7813c2a2181fc74b838199ed6d80234,
         type: 3}
@@ -19508,10 +19501,10 @@ PrefabInstance:
         type: 3}
       propertyPath: _data._objectReferences.Array.data[9]
       value: 
-      objectReference: {fileID: 872447807}
+      objectReference: {fileID: 733939739}
     - target: {fileID: 1632283277073449713, guid: a7813c2a2181fc74b838199ed6d80234,
         type: 3}
-      propertyPath: _data._objectReferences.Array.data[9]
+      propertyPath: _data._objectReferences.Array.data[10]
       value: 
       objectReference: {fileID: 733939739}
     - target: {fileID: 4189757333916432631, guid: a7813c2a2181fc74b838199ed6d80234,
