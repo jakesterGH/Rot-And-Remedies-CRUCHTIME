@@ -11870,6 +11870,12 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1.0000002, z: 1.0000002}
   m_Center: {x: 0.000000007835165, y: -5.1721827e-10, z: 0.5000001}
+--- !u!1 &733939739 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3908714912701185474, guid: cdb35c2e8831b1c4e950b5506984c76f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1450906375}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &734400889
 GameObject:
   m_ObjectHideFlags: 0
@@ -19450,7 +19456,8 @@ PrefabInstance:
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"RatzoneCollider","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Collider,
         UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Aim","value":{"$content":9,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"AimOn?","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"playeranimator","value":{"$content":9,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 1632283277073449713, guid: a7813c2a2181fc74b838199ed6d80234,
         type: 3}
@@ -19502,6 +19509,11 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[9]
       value: 
       objectReference: {fileID: 872447807}
+    - target: {fileID: 1632283277073449713, guid: a7813c2a2181fc74b838199ed6d80234,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[9]
+      value: 
+      objectReference: {fileID: 733939739}
     - target: {fileID: 4189757333916432631, guid: a7813c2a2181fc74b838199ed6d80234,
         type: 3}
       propertyPath: m_Name
